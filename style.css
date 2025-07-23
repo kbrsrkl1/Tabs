@@ -60,6 +60,7 @@ img{
 
 .button:hover{
     background-color: #f3d3e0;
+    color: white;
 }
 
 .tabs-content{
@@ -76,4 +77,16 @@ img{
         grid-template-columns: 1fr 1fr;
         column-gap: 2rem;
     }
+}
+
+.content{
+    display: none;
+}
+
+.content.live{
+    display: block;
+}
+
+.button.live{
+    background-color: #ffe5e2 ;
 }
